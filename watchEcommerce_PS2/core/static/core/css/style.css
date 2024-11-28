@@ -1,3 +1,4 @@
+/* Navbar CSS START ###########################################################################################################################*/
 .navbar {
   background: #ffffff20;
   backdrop-filter: blur(5px);
@@ -51,7 +52,81 @@
   transition: color 0.3s ease;
 }
 
+/* Navbar CSS END #######################################################################################################*/
 
+/* Hero Section - 1 CSS START #########################################################################################*/
+
+#first-hero-text {
+  background-color: black;
+  color: white;
+  padding: 20px; /* Add some padding */
+}
+
+#HeroTitle{
+  font-size: 3.4rem;
+}
+#HeroTitle span{
+  color: rgb(205, 104, 33);
+}
+.first-hero-img {
+  height: auto; /* Set height to auto */
+  max-width: 100%; /* Ensure image doesn't overflow */
+  padding-top: 150px;
+}
+
+/* Video CSS Start ########################################################################## */
+
+.video-section {
+  background-color: black; /* Set background color to black */
+  padding: 20px 0; /* Add some vertical padding */
+}
+
+.video-section video {
+  width: 99%; /* Ensure the video takes full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.video-section {
+  position: relative;
+  overflow: hidden;
+}
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+  text-align: center;
+  z-index: 2; /* Ensure text is above video */
+}
+
+
+/* video CSS ENd ######################################################################### */
+
+/* hero section 2 css start ################################################################ */
+
+.second-hero-img{
+  color: white;
+  padding-top: 10px;
+}
+
+.second-hero-img h1{
+  font-size: 5rem;
+  color: rgb(205, 104, 33);
+}
+
+.second-hero-img p{
+  font-size: 1.5rem;
+}
+
+.second-hero{
+  padding-top: 90px;
+  background-color: black;
+  padding-bottom: 130px;
+}
+
+/* hero css end ############################################################################### */
 
 .servics-section {
   background-color: black;

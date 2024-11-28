@@ -1,33 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
 {% load static %}
-<style>
-    .second-hero-img{
-        color: white;
-        padding-top: 10px;
-    }
-    
-    .second-hero-img h1{
-        font-size: 5rem;
-        color: rgb(205, 104, 33);
-    }
-    
-    .second-hero-img p{
-        font-size: 1.5rem;
-    }
-    
-    .second-hero{
-        padding-top: 90px;
-        background-color: black;
-        padding-bottom: 130px;
-    }
-</style>
-<div class="container-fluid">
-    <div class="row align-items-center  second-hero">
-        <div class="col-md-6">
-            <img src="{% static "core/imgs/heroimg.jpg" %}" alt="Description" class="img-fluid">
-        </div>
-        <div class="col-md-6 second-hero-img">
-            <h1 id="secondHeroTitle">Why TimeZone ?</h1>
-            <p>Our luxury watches combine classic style and top-quality craftsmanship, making every moment special.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}TZ| {% endblock title %}</title>
+    <link rel="stylesheet" href="{% static "core/css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}?v={{ STATIC_VERSION }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center  second-hero">
+            <div class="col-md-6">
+                <img src="{% static "core/imgs/heroimg.jpg" %}" alt="Description" class="img-fluid">
+            </div>
+            <div class="col-md-6 second-hero-img">
+                <h1 id="secondHeroTitle">Why TimeZone ?</h1>
+                <p>Our luxury watches combine classic style and top-quality craftsmanship, making every moment special.</p>
+            </div>
         </div>
     </div>
-</div>
+</body>
+</html>
